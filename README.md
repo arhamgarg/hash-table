@@ -37,7 +37,7 @@ To run the executable:
 ## Usage Example
 
 ```c
-#include "hash_table.h"
+#include "hash_table.c"
 #include <stdio.h>
 
 int main() {
@@ -56,6 +56,7 @@ int main() {
     printf("Apple after deletion: %s\n", ht_search(ht, "apple")); // Should be NULL
 
     ht_del_hash_table(ht);
+
     return 0;
 }
 ```
